@@ -1,0 +1,206 @@
+<!-- UNited Campfire, an all-round campus forum for students at UNC-Chapel Hill. -->
+   
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo/campfire.ico">
+  <!-- font  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <!-- Icons  -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <nav class="sidebar close">
+    <header>
+        <div class="image-text">
+            <span class="image">
+                <img src="./assets/images/Avater.jpeg" alt="" width="50" height="50">
+            </span>
+            <div class="text logo-text">
+                <span class="name">Nahida</span>
+                <span class="profession">Student</span>
+            </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+    </header>
+    <div class="menu-bar">
+        <div class="menu">
+            <li class="search-box">
+                <i class="bx bx-search icon"></i>
+                <input type="text" placeholder="Search...">
+            </li>
+
+            <ul class="menu-links">
+
+                <li class="nav-link">
+                    <a href="./profile.html">
+                        <i class="bx bx-home-alt icon"></i>
+                        <span class="text nav-text">Profile</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                  <a href="./post.html">
+                        <i class='bx bx-bar-chart-alt-2 icon'></i>
+                        <span class="text nav-text">Post</span>
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="./Notifications.html">
+                        <i class='bx bx-bell icon'></i>
+                        <span class="text nav-text">Notifications</span>
+                    </a>
+                </li>
+      
+                <li class="nav-link">
+                    <a href="./Favorites.html">
+                        <i class='bx bx-heart icon'></i>
+                        <span class="text nav-text">Favorites</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="bottom-content">
+            <li>
+                <a href="#">
+                    <i class="bx bx-log-out icon"></i>
+                    <span class="text nav-text">Logout</span>
+                </a>
+            </li>
+        </div>
+
+    </div>
+</nav>
+
+
+<section class="home">
+    <div class="fixed-top bg-mode">
+        <div class="container">
+             <a href="./index.html" class="logo">
+                 <img src="./assets/images/logo/logo.png" alt="Campfire's logo" width="200" height="80">
+             </a>   
+        </div>
+    </div>
+
+       <!-- Favorates Topics -->
+       <div class="card card-body">
+        <div class="d-flex mb">
+            <span class="title">Favorites Topics</span>
+        </div>
+        <!-- Topic Grids -->
+        <div class="Topics">
+            <div class="card">
+              <img src="./assets/images/Topics/GamingArena.jpeg" alt="">
+              <div class="content">
+                <div class="row">
+                  <div class="details">
+                    <span>#GamingArena</span>
+                  </div>
+                  <div class="Clicks">🔥8K</div>
+                </div>
+                <div class="buttons">
+                    <!-- Link to GamingArena.html, where students can discuss about any videogames.          -->
+                    <button onclick="GamingArena()">More</button>
+                    <button>❤️</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/images/Topics/Anime.jpeg" alt="">
+              <div class="content">
+                <div class="row">
+                  <div class="details">
+                    <span>#Anime</span>
+                  </div>
+                  <div class="Clicks">🔥18K</div>
+                </div>
+                <div class="buttons">
+                    <button>More</button>
+                    <button>❤️</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/images/Topics/DiningCH.jpeg" alt="">
+              <div class="content">
+                <div class="row">
+                  <div class="details">
+                    <span>#DiningCH</span>
+                  </div>
+                  <div class="Clicks">🔥5K</div>
+                </div>
+                <div class="buttons"> 
+                    <!-- Link to DiningCH.html, where students can discuss about the restaurants in Chapel Hill.              -->
+                    <button onclick="DiningCH()">More</button>   
+                    <button>❤️</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="Topics">
+            <div class="card">
+              <img src="./assets/images/Topics/Music.jpeg" alt="">
+              <div class="content">
+                <div class="row">
+                  <div class="details">
+                    <span>#Music</span>
+                  </div>
+                  <div class="Clicks">🔥20K</div>
+                </div>
+                <div class="buttons">
+                  <button>More</button>
+                  <button>❤️</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/images/Topics/SweetCat.jpeg" alt="">
+              <div class="content">
+                <div class="row">
+                  <div class="details">
+                    <span>#SweetCat</span>
+                  </div>
+                  <div class="Clicks">🔥22K</div>
+                </div>
+                <div class="buttons">
+                  <button>More</button>
+                  <button>❤️</button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/images/Topics/CodeForFun.jpeg" alt="">
+              <div class="content">
+                <div class="row">
+                  <div class="details">
+                    <span>#CodeForFun</span>
+                  </div>
+                  <div class="Clicks">🔥7K</div>
+                </div>
+                <div class="buttons">
+                    <button>More</button>
+                    <button>❤️</button>
+                </div>
+              </div>
+            </div>
+          </div>
+   </div>
+
+
+    <script src="./assets/js/script.js"></script>
+<!-- </div> -->
+</section>
+
+
+</body>
+</html>
