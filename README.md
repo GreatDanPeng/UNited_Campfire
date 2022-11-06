@@ -1,6 +1,14 @@
 # UNited_Campfire
 UNited Campfire, an all-round campus forum for students at UNC-Chapel Hill.
 
+<img src="https://raw.githubusercontent.com/GreatDanPeng/UNited_Campfire/main/Web%20Images/homepage.png" title="Homepage" width=800px height=500px>
+<br />
+
+***
+
+<img src="https://raw.githubusercontent.com/GreatDanPeng/UNited_Campfire/main/Web%20Images/Profile.png" title="Profile" width=800px height=550px>
+
+***
 
 ## Inspiration
 As we were browsing through emails from unc, Instagram, reddit and heel life, I wondered if there could be a platform that could bring all of them together. In my opinion, each information network is like a campfire where people congregate around to chat and exchange ideas. If many campfires could gather together, it would be even more exciting! The information gap that is detrimental to many students will also disappear... Thus, we designed **UNited Campfire**.
