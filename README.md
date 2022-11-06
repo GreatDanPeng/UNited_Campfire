@@ -8,16 +8,16 @@ As we were browsing through emails from unc, Instagram, reddit and heel life, I 
 ## What it does
 **UNited Campfire** has several functions.
 
-###Homepage
+### Homepage
 1. **Banner**: The user can view recent sports news, art performances, student store discounts, other interesting but niche events, etc...
 2. **Recommended Topics**: Show different topics based on campus hotness.
 
-###Sidebar
+### Sidebar
 3. **Search**: Search for topics or keywords you want to know about (Designed). 
-4. **Profile**: Show personal information and recent posts. 
-5. **Post**: You can type in what you want to share and upload local files.
-6. **Notifications**: Remind the update of favorite topics.
-7. **Favorites**: Favorite topics of interest.
+5. **Profile**: Show personal information and recent posts. 
+7. **Post**: You can type in what you want to share and upload local files.
+9. **Notifications**: Remind the update of favorite topics.
+10. **Favorites**: Favorite topics of interest.
 
 ## How we built it
 We primarily coded this project by using the common web development languages, html5, css3 and JavaScript. The webpage layouts were designed and made with CSS and HTML and the Sidebar animation and link connections were created with JavaScript. Learning to use HTML's <meta> and <inframe> was our greatest gain, though we also learned a lot about creating and calling functions in JS! When most of the content on a page is the same, such as the header and bottom of a page, we can use the <iframe> tag to embed the duplicate parts into the page. This effectively reduces code redundancy. We finally combined our code and linked them together on GitHub.
