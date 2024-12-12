@@ -1,5 +1,6 @@
 # UNited_Campfire
 UNited Campfire, an all-round campus forum for students at UNC-Chapel Hill.
+[![UNited Campfire 2min Pitch](https://img.youtube.com/vi/CGB2SV8Gujk/0.jpg)](https://www.youtube.com/watch?v=CGB2SV8Gujk)
 
 <img src="https://raw.githubusercontent.com/GreatDanPeng/UNited_Campfire/main/Web%20Images/homepage.png" title="Homepage" width=800px height=500px>
 <br />
